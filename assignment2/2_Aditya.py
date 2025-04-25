@@ -49,7 +49,7 @@ def simulate_X(N):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Error\nUSAGE: python3 problem2.py [N]")
+        print("Error\nUSAGE: python3 2_Aditya.py [N]")
         exit(1)
 
     N = sys.argv[1]

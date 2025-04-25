@@ -73,7 +73,7 @@ def solve_mode_2(N, n, lam):
 if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) < 3 or len(args) > 4:
-        print("USAGE: python3 problem1.py [MODE] [N] [n] [PARAM]")
+        print("USAGE: python3 1_Aditya.py [MODE] [N] [n] [PARAM]")
         sys.exit(1)
 
     try:

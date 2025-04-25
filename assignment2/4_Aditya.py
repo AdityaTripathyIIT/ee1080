@@ -49,7 +49,7 @@ if __name__ == "__main__":
     mean, cov, N = np.zeros((1, 2)), np.zeros((2, 2)), 0
     if len(sys.argv) != 8:
         print(
-            "Error\nUSAGE python3 problem4.py [mean 0] [mean 1] [cov 0,0] [cov 0,1] [cov 1,0] [cov 1,1] [N]")
+            "Error\nUSAGE python3 4_Aditya.py [mean 0] [mean 1] [cov 0,0] [cov 0,1] [cov 1,0] [cov 1,1] [N]")
         exit(1)
     else:
         mean = np.array([float(x) for x in sys.argv[1:3]])
